@@ -19,7 +19,7 @@ class App extends Component {
           <div>
             <h2>About SmarterBham</h2>
           </div>
-          <div className="body-mission">
+          <div className="body-section">
             <p>
             Imagine a city driven by information.  A place where decision making is supported by a city-wide sensor network
              that provides real time data about the state of things.  Imagine the platform that runs the network, 
@@ -106,7 +106,7 @@ class App extends Component {
               Our Partners
             </h2>
           </div>
-          <div className="card-body">
+          <div className="cards-section">
             <CardDeck className="card-body">
               <Card className="sbham-card">
                 <a href="https://gaspgroup.org"><Card.Img variant="top" src="img/gasp.png"/></a>
@@ -146,7 +146,7 @@ class App extends Component {
           <div>
             <h2>In The News</h2>
           </div>
-          <div>
+          <div className="body-section">
             <iframe src="https://player.vimeo.com/video/315325849" width="640" height="360" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen></iframe>
             <p><a href="https://vimeo.com/315325849">Smarter Birmingham Air Quality Sensor Project</a> from <a href="https://vimeo.com/gaspgroup">GASP</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
           </div>

@@ -28,8 +28,9 @@
   transform: translate(-50%, -50%);
 }
 
-.card-body {
+.cards-section {
   text-align: center;
+  display: inline-flex;
 }
 
 .sbham-card {
@@ -37,6 +38,6 @@
   display: inline-block;
 }
 
-.body-mission {
+.body-section {
   margin: 2em;
 }
