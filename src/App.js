@@ -147,8 +147,10 @@ class App extends Component {
             <h2>In The News</h2>
           </div>
           <div className="body-section">
-            <iframe src="https://player.vimeo.com/video/315325849" width="640" height="360" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen></iframe>
-            <p><a href="https://vimeo.com/315325849">Smarter Birmingham Air Quality Sensor Project</a> from <a href="https://vimeo.com/gaspgroup">GASP</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+            <div className="video-responsive">
+              <iframe  src="https://player.vimeo.com/video/315325849" width="640" height="360" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen></iframe>
+              <p><a href="https://vimeo.com/315325849">Smarter Birmingham Air Quality Sensor Project</a> from <a href="https://vimeo.com/gaspgroup">GASP</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+            </div>
           </div>
       </div>
     );
